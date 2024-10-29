@@ -1,6 +1,9 @@
 {
   "HOME": {
-    "TITLE": "Welcome to My App",
+    "TITLE": "Bienvenue",
     "DESCRIPTION": "This is a sample description in English."
+  },
+  "Experience": {
+    "Experience": "Chez vous"
   }
 }

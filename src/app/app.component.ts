@@ -13,11 +13,12 @@ import {HomePageComponent} from './pages/home-page/home-page.component';
 export class AppComponent {
   title = 'hotou-morelle-portfolio';
 
-  // constructor(private translate: TranslateService) {
-  //   this.translate.setDefaultLang('en');
-  // }
+  constructor(private translate: TranslateService) {
+    this.translate.setDefaultLang('en');
+  }
 
-  // switchLanguage(language: string) {
-  //   this.translate.use(language)
-  // }
+  switchLanguage(language: string) {
+    this.translate.use(language)
+    console.log('true')
+  }
 }

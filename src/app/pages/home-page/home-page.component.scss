@@ -1,0 +1,11 @@
+.list-item{
+  width: 2vw;
+}
+
+.about:hover, about-style:active {
+  .list-item {
+    width: 5vw;
+    color: white;
+    background-color: white;
+  }
+}

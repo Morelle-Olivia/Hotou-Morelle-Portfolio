@@ -1,23 +1,39 @@
 <div class="bg-customBlue text-white">
+  <div>
+    <h1>{{ 'HOME.TITLE' | translate }}</h1>
+    <p>{{ 'HOME.DESCRIPTION' | translate }}</p>
+
+    <button class="bg-red-500" (click)="switchLanguage('en')">English</button>
+    <button (click)="switchLanguage('fr')">Français</button>
+  </div>
   <div class="p-[100px] px-[150px] h-screen">
-    <div class="grid grid-cols-2 gap-40">
+<!--    lg:flex lg:justify-between lg:gap-4-->
+    <div class="grid grid-cols-2 ">
       <div class="grid grid-rows gap-4">
         <h1 class="text-5xl w-88 break-words font-bold">HOTOU NJIOWOUO MORELLE OLIVIA</h1>
         <h2 class="text-2xl">Frontend Developer</h2>
-        <h5 class="text-1xl w-80 break-words font-light">Experienced Software Developer with a track record of building quality applications. Proficient in Angular.</h5>
-        <ul class="list-[square] list-inside space-y-2 font-light cursor-pointer pt-10">
+        <h5 class="text-1xl w-80 break-words text-mute">Experienced Software Developer with a track record of building quality applications. Proficient in Angular.</h5>
 
-          <a [routerLink]="'ui/about'"
-             routerLinkActive="font-bold"
-             class="active:font-bold hover:font-bold"
-          >
-            <li>About</li>
-          </a>
+        <ul class=" list-inside space-y-2 text-gray-500 cursor-pointer pt-10">
+          <div class="flex w-28 about">
+            <div class="h-0.5 mt-3 bg-gray-500 list-item"></div>
+            <div class="pl-3 about">
+              <a [routerLink]="'ui/about'"
+                 routerLinkActive="font-bold text-white "
+                 class="active:font-bold hover:font-bold hover:text-white about-style"
+              >
+                <li>About</li>
+              </a>
+            </div>
+
+          </div>
+
+
           <a [routerLink]="'ui/experience'"
              routerLinkActive="font-bold"
              class="active:font-bold hover:font-bold"
           >
-            <li>Experience</li>
+            <li>{{"Experience.Experience" | translate}}</li>
           </a>
           <li>Projects</li>
           <li>Skills</li>
@@ -25,6 +41,7 @@
       </div>
       <div class="text-1xl font-light ">
         <router-outlet />
+
 <!--<router-outlet></router-outlet>-->
 <!--        <p>-->
 <!--          I am an experienced Software Developer with a proven track record in building high-quality applications.-->
