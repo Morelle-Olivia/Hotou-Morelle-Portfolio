@@ -1,57 +1,60 @@
 <div class="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute"
 ></div>
-<div class="bg-customBlue bg-slate-900 leading-relaxed text-slate-500 antialiased selection:bg-teal-300 selection:text-teal-900 font-sans text-white">
-  <div class="lg:p-[100px] xsm:py-10 lg:px-[200px] xsm:px-[30px] lg:h-screen">
-    <div class="grid lg:grid-cols-2 sm:grid-cols-1">
-      <div class="grid grid-rows gap-4">
-        <h1 class="lg:text-4xl xsm:text-3xl w-2/3 tracking-tight text-slate-200 break-words font-bold">HOTOU NJIOWOUO MORELLE OLIVIA</h1>
-        <h2 class="text-xl font-medium tracking-tight text-slate-200">
-          {{"HOME.frontend_developer" | translate }}
-        </h2>
-        <h5 class="text-1xl w-80 break-words text-slate-400 leading-normal">
-          {{"HOME.description" | translate }}
-        </h5>
+<div class="bg-slate-900">
+  <div class="mx-auto min-h-screen max-w-screen-xl leading-relaxed text-slate-500 antialiased selection:bg-teal-300 selection:text-teal-900 font-sans text-white">
+    <div class="lg:p-[100px] xsm:py-10 lg:px-[150px] xsm:px-[30px] lg:h-screen">
+      <div class="grid lg:grid-cols-2 sm:grid-cols-1">
+        <div class="grid grid-rows gap-4">
+          <h1 class="lg:text-4xl xsm:text-2xl w-2/3 tracking-tight text-slate-200 break-words font-bold">HOTOU NJIOWOUO MORELLE OLIVIA</h1>
+          <h2 class="text-xl font-medium tracking-tight text-slate-200">
+            {{"HOME.frontend_developer" | translate }}
+          </h2>
+          <h5 class="text-1xl w-80 break-words text-slate-400 leading-normal">
+            {{"HOME.description" | translate }}
+          </h5>
 
-        <ul class="tracking-tight text-light list-inside text-slate-400 space-y-2 cursor-pointer pt-10">
-          <div class="flex w-30 about">
-            <div class="h-0.5 mt-3 bg-gray-500 list-item"></div>
-            <div class="pl-3 about">
-              <a [routerLink]="'ui/about'"
-                 routerLinkActive="font-bold text-white "
-                 class="active:font-bold hover:text-slate-200 tracking-widest focus-visible:text-slate-200 about-style"
+          <ul class="tracking-tight text-light list-inside text-slate-400 space-y-2 cursor-pointer pt-10">
+            <div class="flex w-30 about">
+              <div class="h-0.5 mt-3 bg-gray-500 list-item"></div>
+              <div class="pl-3 about">
+                <a [routerLink]="'ui/about'"
+                   routerLinkActive="font-bold text-white "
+                   class="active:font-bold hover:text-slate-200 tracking-widest focus-visible:text-slate-200 about-style"
+                >
+                  <li>{{"HOME.about" | translate}}</li>
+                </a>
+              </div>
+            </div>
+
+            <div class="flex w-30 about">
+              <div class="h-0.5 mt-3 bg-gray-500 pl-6 list-item"></div>
+              <a [routerLink]="'ui/experience'"
+                 routerLinkActive="font-bold"
+                 class="active:font-bold hover:text-slate-200 nav-text tracking-widest focus-visible:text-slate-200"
               >
-                <li>{{"HOME.about" | translate}}</li>
+                <li>{{"HOME.experience" | translate}}</li>
               </a>
             </div>
-          </div>
+            <li>{{"HOME.projects" | translate }}</li>
+            <li>{{"HOME.skills" | translate }}</li>
+          </ul>
+        </div>
+        <div class="text-1xl text-slate-400 lg:pt-0 xsm:pt-8">
+          <router-outlet />
 
-       <div class="flex w-30 about">
-         <div class="h-0.5 mt-3 bg-gray-500 pl-6 list-item"></div>
-         <a [routerLink]="'ui/experience'"
-             routerLinkActive="font-bold"
-             class="active:font-bold hover:text-slate-200 nav-text tracking-widest focus-visible:text-slate-200"
-          >
-            <li>{{"HOME.experience" | translate}}</li>
-          </a>
-       </div>
-          <li>{{"HOME.projects" | translate }}</li>
-          <li>{{"HOME.skills" | translate }}</li>
-        </ul>
+        </div>
       </div>
-      <div class="text-1xl text-slate-400 lg:pt-0 xsm:pt-8">
-        <router-outlet />
-
+      <div class="pt-10">
+        <button class="px-4 py-2 mr-2 bg-teal-400/20 text-teal-300 text-s font-medium leading-5 rounded-full"
+                (click)="switchLanguage('en')">
+          {{"HOME.eng" | translate}}
+        </button>
+        <button class="px-4 py-2 mr-2 bg-teal-400/20 text-teal-300 text-s font-medium leading-5 rounded-full"
+                (click)="switchLanguage('fr')">
+          {{"HOME.fr" | translate}}
+        </button>
       </div>
-    </div>
-    <div class="pt-10">
-      <button class="px-4 py-2 mr-2 bg-teal-400/20 text-teal-300 text-s font-medium leading-5 rounded-full"
-              (click)="switchLanguage('en')">
-        {{"HOME.eng" | translate}}
-      </button>
-      <button class="px-4 py-2 mr-2 bg-teal-400/20 text-teal-300 text-s font-medium leading-5 rounded-full"
-              (click)="switchLanguage('fr')">
-        {{"HOME.fr" | translate}}
-      </button>
     </div>
   </div>
+
 </div>
