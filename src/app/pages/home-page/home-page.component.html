@@ -1,26 +1,28 @@
-<div class="bg-customBlue text-white">
-  <div>
-    <h1>{{ 'HOME.TITLE' | translate }}</h1>
-    <p>{{ 'HOME.DESCRIPTION' | translate }}</p>
+<div class="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute"
+></div>
+<div class="bg-customBlue bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 font-sans text-white">
+<!--  <div>-->
+<!--    <h1>{{ 'HOME.TITLE' | translate }}</h1>-->
+<!--    <p>{{ 'HOME.DESCRIPTION' | translate }}</p>-->
 
-    <button class="bg-red-500" (click)="switchLanguage('en')">English</button>
-    <button (click)="switchLanguage('fr')">Français</button>
-  </div>
-  <div class="p-[100px] px-[150px] h-screen">
+<!--    <button class="bg-red-500" (click)="switchLanguage('en')">English</button>-->
+<!--    <button (click)="switchLanguage('fr')">Français</button>-->
+<!--  </div>-->
+  <div class="lg:p-[100px] xsm:py-10 lg:px-[200px] xsm:px-[30px] lg:h-screen">
 <!--    lg:flex lg:justify-between lg:gap-4-->
-    <div class="grid grid-cols-2 ">
+    <div class="grid lg:grid-cols-2 sm:grid-cols-1">
       <div class="grid grid-rows gap-4">
-        <h1 class="text-5xl w-88 break-words font-bold">HOTOU NJIOWOUO MORELLE OLIVIA</h1>
-        <h2 class="text-2xl">Frontend Developer</h2>
-        <h5 class="text-1xl w-80 break-words text-mute">Experienced Software Developer with a track record of building quality applications. Proficient in Angular.</h5>
+        <h1 class="lg:text-4xl xsm:text-3xl w-2/3 tracking-tight text-slate-200 break-words font-bold">HOTOU NJIOWOUO MORELLE OLIVIA</h1>
+        <h2 class="text-xl font-medium tracking-tight text-slate-200">Frontend Developer</h2>
+        <h5 class="text-1xl w-80 break-words leading-normal">Experienced Software Developer with a track record of building quality applications. Proficient in Angular.</h5>
 
-        <ul class=" list-inside space-y-2 text-gray-500 cursor-pointer pt-10">
+        <ul class="leading-normal text-light list-inside space-y-2 cursor-pointer pt-10">
           <div class="flex w-28 about">
             <div class="h-0.5 mt-3 bg-gray-500 list-item"></div>
             <div class="pl-3 about">
               <a [routerLink]="'ui/about'"
                  routerLinkActive="font-bold text-white "
-                 class="active:font-bold hover:font-bold hover:text-white about-style"
+                 class="active:font-bold hover:text-slate-200 tracking-widest focus-visible:text-slate-200 about-style"
               >
                 <li>About</li>
               </a>
@@ -31,7 +33,7 @@
 
           <a [routerLink]="'ui/experience'"
              routerLinkActive="font-bold"
-             class="active:font-bold hover:font-bold"
+             class="active:font-bold hover:text-slate-200 nav-text tracking-widest focus-visible:text-slate-200"
           >
             <li>{{"Experience.Experience" | translate}}</li>
           </a>
@@ -39,26 +41,8 @@
           <li>Skills</li>
         </ul>
       </div>
-      <div class="text-1xl font-light ">
+      <div class="text-1xl leading-normal lg:pt-0 xsm:pt-8">
         <router-outlet />
-
-<!--<router-outlet></router-outlet>-->
-<!--        <p>-->
-<!--          I am an experienced Software Developer with a proven track record in building high-quality applications.-->
-<!--          I am skilled, a fast learner, and proficient in Agile methodologies. I take pride in being among the top women-->
-<!--          in tech who are actively contributing to meaningful innovations and solutions to today’s challenges.-->
-<!--          I am also a fast learner who thrives in collaborative environments with leading women in tech.-->
-<!--        </p>-->
-<!--        <p class="py-4">-->
-<!--          My journey in software development has been fulfilling, marked by significant growth towards my goals.-->
-<!--          I have had the privilege of creating software for a school management system and working with a start-up.-->
-<!--          Currently, my focus is on developing accessible user interfaces.-->
-<!--        </p>-->
-
-<!--        <p >-->
-<!--          Outside of work, I enjoy adventures, reading, and fostering connections with other tech women who share my passion.-->
-<!--        </p>-->
-
 
       </div>
     </div>
