@@ -1,7 +1,18 @@
 {
   "HOME": {
-    "TITLE": "Bienvenue",
-    "DESCRIPTION": "This is a sample description in English."
+    "frontend_developer": "Développeur Frontend",
+    "description": "Développeur de logiciels expérimenté avec un historique de construction d'applications de qualité. Maîtrise d'Angular.",
+    "about": "A propos de",
+    "experience": "Experience",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "eng": "Ang",
+    "fr": "Fr"
+  },
+  "About": {
+    "about_para1": "Je suis un développeur de logiciels expérimenté qui a fait ses preuves dans la création d'applications de haute qualité.\nJe suis compétente, j'apprends rapidement et je maîtrise les méthodologies Agile. Je suis fière de faire partie des meilleures femmes\ndans la technologie qui contribuent activement à des innovations significatives et à des solutions aux défis d'aujourd'hui.\nJe suis également une personne qui apprend vite et qui s'épanouit dans des environnements de collaboration avec des femmes leaders dans le domaine de la technologie.",
+    "about_para2": "Mon parcours dans le développement de logiciels a été enrichissant, marqué par une évolution significative vers mes objectifs.\nJ'ai eu le privilège de créer des logiciels pour un système de gestion scolaire et de travailler avec une start-up.\nActuellement, je me concentre sur le développement d'interfaces utilisateur accessibles.",
+    "about_para3": "En dehors du travail, j'aime partir à l'aventure, lire et entretenir des relations avec d'autres femmes de la technologie qui partagent ma passion."
   },
   "Experience": {
     "Experience": "Chez vous"

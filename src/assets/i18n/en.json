@@ -1,7 +1,18 @@
 {
   "HOME": {
-    "TITLE": "Welcome to My App",
-    "DESCRIPTION": "This is a sample description in English."
+    "frontend_developer": "Frontend Developer",
+    "description": "Experienced Software Developer with a track record of building quality applications. Proficient in Angular.",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "eng": "Eng",
+    "fr": "Fr"
+  },
+  "About": {
+    "about_para1": "I am an experienced Software Developer with a proven track record in building high-quality applications.\n    I am skilled, a fast learner, and proficient in Agile methodologies. I take pride in being among the top women\n    in tech who are actively contributing to meaningful innovations and solutions to today’s challenges.\n    I am also a fast learner who thrives in collaborative environments with leading women in tech.",
+    "about_para2": "My journey in software development has been fulfilling, marked by significant growth towards my goals.\n    I have had the privilege of creating software for a school management system and working with a start-up.\n    Currently, my focus is on developing accessible user interfaces.",
+    "about_para3": "Outside of work, I enjoy adventures, reading, and fostering connections with other tech women who share my passion."
   },
   "Experience": {
     "Experience": "Experience"
