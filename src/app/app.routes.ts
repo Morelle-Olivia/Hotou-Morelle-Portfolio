@@ -4,6 +4,7 @@ import {ExperiencePageComponent} from './pages/experience-page/experience-page.c
 import {HomePageComponent} from './pages/home-page/home-page.component';
 
 export const routes: Routes = [
+  { path: '', redirectTo: 'ui/about', pathMatch: 'full' },
   {
     path: '',
     component: HomePageComponent,

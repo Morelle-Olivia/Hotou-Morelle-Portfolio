@@ -18,7 +18,7 @@
               <div class="h-0.5 mt-3 bg-gray-500 list-item"></div>
               <div class="pl-3 about">
                 <a [routerLink]="'ui/about'"
-                   routerLinkActive="font-bold text-white "
+                   routerLinkActive="font-bold text-white hover:text-slate-200"
                    class="active:font-bold hover:text-slate-200 tracking-widest focus-visible:text-slate-200 about-style"
                 >
                   <li>{{"HOME.about" | translate}}</li>
@@ -27,16 +27,38 @@
             </div>
 
             <div class="flex w-30 about">
-              <div class="h-0.5 mt-3 bg-gray-500 pl-6 list-item"></div>
-              <a [routerLink]="'ui/experience'"
-                 routerLinkActive="font-bold"
-                 class="active:font-bold hover:text-slate-200 nav-text tracking-widest focus-visible:text-slate-200"
-              >
-                <li>{{"HOME.experience" | translate}}</li>
-              </a>
+              <div class="h-0.5 mt-3 bg-gray-500 list-item"></div>
+              <div class="pl-3 about">
+                <a [routerLink]="'ui/experience'"
+                   routerLinkActive="font-bold text-white"
+                   class="active:font-bold hover:font-bold hover:text-white tracking-widest focus-visible:text-slate-200"
+                >
+                  <li>{{"HOME.experience" | translate}}</li>
+                </a>
+              </div>
             </div>
-            <li>{{"HOME.projects" | translate }}</li>
-            <li>{{"HOME.skills" | translate }}</li>
+            <div class="flex w-30 about">
+              <div class="h-0.5 mt-3 bg-gray-500 list-item"></div>
+              <div class="pl-3 about">
+                <a [routerLink]="''"
+                   routerLinkActive="font-bold text-white"
+                   class="active:font-bold hover:text-slate-200 tracking-widest focus-visible:text-slate-200"
+                >
+                  <li>{{"HOME.projects" | translate }}</li>
+                </a>
+              </div>
+            </div>
+            <div class="flex w-30 about">
+              <div class="h-0.5 mt-3 bg-gray-500 list-item"></div>
+              <div class="pl-3 about">
+                <a [routerLink]="'ui/'"
+                   routerLinkActive="font-bold text-white"
+                   class="active:font-bold hover:text-slate-200 tracking-widest focus-visible:text-slate-200"
+                >
+                  <li>{{"HOME.skills" | translate }}</li>
+                </a>
+              </div>
+            </div>
           </ul>
         </div>
         <div class="text-1xl text-slate-400 lg:pt-0 xsm:pt-8">
