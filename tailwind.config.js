@@ -12,7 +12,7 @@ module.exports = {
         'xsm': '344px'
       },
       width: {
-        '2vw': '2vw'
+        '2vw': '5vw'
       }
     },
   },

@@ -15,6 +15,10 @@
     "about_para3": "Outside of work, I enjoy adventures, reading, and fostering connections with other tech women who share my passion."
   },
   "Experience": {
-    "Experience": "Experience"
+    "Experience": "Experience",
+    "present": "Present",
+    "experience_desc1": "Contributed to the development and maintenance of a comprehensive school management\n        system, featuring modules for fee payments, course registration, result viewing, transcript management,\n        and additional functionalities.",
+    "intern_frontend_developer": "Intern Frontend Developer",
+    "experience_desc2": "Contributed to the development and maintenance of a company library to"
   }
 }

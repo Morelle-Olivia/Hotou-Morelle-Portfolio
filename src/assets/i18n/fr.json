@@ -3,7 +3,7 @@
     "frontend_developer": "Développeur Frontend",
     "description": "Développeur de logiciels expérimenté avec un historique de construction d'applications de qualité. Maîtrise d'Angular.",
     "about": "A propos de",
-    "experience": "Experience",
+    "experience": "Expérience",
     "projects": "Projets",
     "skills": "Compétences",
     "eng": "Ang",
@@ -15,6 +15,10 @@
     "about_para3": "En dehors du travail, j'aime partir à l'aventure, lire et entretenir des relations avec d'autres femmes de la technologie qui partagent ma passion."
   },
   "Experience": {
-    "Experience": "Chez vous"
+    "Experience": "Expérience",
+    "present": "Présent",
+    "experience_desc1": "Contribution au développement et à la maintenance d'un système de gestion scolaire complet, comprenant des modules pour le paiement des frais, l'inscription aux cours, la visualisation des résultats, la gestion des relevés de notes et d'autres fonctionnalités.",
+    "intern_frontend_developer": "Développeur Frontend stagiaire",
+    "experience_desc2": "Contributed to the development and maintenance of a company library to"
   }
 }
