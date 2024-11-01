@@ -10,6 +10,9 @@ module.exports = {
       },
       screens: {
         'xsm': '344px'
+      },
+      width: {
+        '2vw': '5vw'
       }
     },
   },
