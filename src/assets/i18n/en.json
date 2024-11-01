@@ -20,5 +20,9 @@
     "experience_desc1": "Contributed to the development and maintenance of a comprehensive school management\n        system, featuring modules for fee payments, course registration, result viewing, transcript management,\n        and additional functionalities.",
     "intern_frontend_developer": "Intern Frontend Developer",
     "experience_desc2": "Contributed to the development and maintenance of a company library to"
+  },
+  "Project": {
+    "portfolio_website": "Portfolio Website",
+    "project_desc1": "My portfolio website here tells you about my professional work and experience, projects worked and the different frameworks used."
   }
 }
