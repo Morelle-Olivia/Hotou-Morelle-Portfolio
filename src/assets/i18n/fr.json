@@ -20,5 +20,11 @@
     "experience_desc1": "Contribution au développement et à la maintenance d'un système de gestion scolaire complet, comprenant des modules pour le paiement des frais, l'inscription aux cours, la visualisation des résultats, la gestion des relevés de notes et d'autres fonctionnalités.",
     "intern_frontend_developer": "Développeur Frontend stagiaire",
     "experience_desc2": "Contributed to the development and maintenance of a company library to"
+  },
+  "Project": {
+    "portfolio_website": " Website Portfolio",
+    "project_desc1": "My portfolio website here tells you about my professional work and experience, projects worked and the different frameworks used.",
+    "shortly_website": "Shortly Website",
+    "project_desc2": "This website helps to shorten url links of any form, displays the shortened link and you have the possibility of copying that link and pasting it anywhere and will work as the original link."
   }
 }

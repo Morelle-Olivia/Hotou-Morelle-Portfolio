@@ -23,6 +23,8 @@
   },
   "Project": {
     "portfolio_website": "Portfolio Website",
-    "project_desc1": "My portfolio website here tells you about my professional work and experience, projects worked and the different frameworks used."
+    "project_desc1": "My portfolio website here tells you about my professional work and experience, projects worked and the different frameworks used.",
+    "shortly_website": "Shortly Website",
+    "project_desc2": "This website helps to shorten url links of any form, displays the shortened link and you have the possibility of copying that link and pasting it anywhere and will work as the original link."
   }
 }
