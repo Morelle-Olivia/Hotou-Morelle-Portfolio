@@ -3,7 +3,7 @@
     <div class="text-1xl">
       <header class="text-xs mt-2 w-32 z-10 mb-2 font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
         <div class="flex">
-          2024
+          2022
           <div class="h-0.5 mt-1.5 mx-1 bg-gray-500 w-3"></div>
           {{"Experience.present" | translate }}
         </div>
@@ -105,9 +105,12 @@
         <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 block"></span>
         {{"Project.portfolio_website" | translate }}
       </h1>
-      <h1 class="mt-2 text-sm leading-normal">{{"Project.project_desc1" | translate }}
-      </h1>
-      <div class="flex flex-wrap w-96 pt-4">
+      <div class="xsm:w-56 md:w-96 lg:w-96 xsm:pr-6">
+        <h1 class="mt-2 text-sm leading-normal">
+          {{"Project.project_desc1" | translate }}
+        </h1>
+      </div>
+      <div class="flex flex-wrap xsm:w-56 lg:w-96 pt-4">
         <div>
           <button class="px-3 py-1 mr-1.5 bg-teal-400/10 text-teal-300 text-xs font-medium leading-5 rounded-full">
             Angular
@@ -131,5 +134,46 @@
       </div>
     </div>
   </div>
+
+  <div class="flex xsm:flex-wrap lg:flex-nowrap pb-12" *ngFor="let projects of myProjects">
+    <div class="text-1xl">
+      <header class="text-xs mt-2 w-32 z-10 mb-2 sm:col-span-2">
+        <img class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1 w-28"
+             src="{{ projects.projectPicture }}" alt="">
+      </header>
+      <!--    <span class="h-0.5 mt-3 bg-gray-500 w-80"></span>-->
+    </div>
+    <div class="z-10 sm:col-span-6">
+      <h1 class="font-medium leading-snug text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base mt-1 items-baseline leading-tight">
+        <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 block"></span>
+        {{ projects.projectTitle1 | translate }}
+      </h1>
+      <h1 class="mt-2 text-sm leading-normal">{{"Project.project_desc2" | translate }}
+      </h1>
+      <div class="flex flex-wrap w-96 pt-4">
+        <div>
+          <button class="px-3 py-1 mr-1.5 bg-teal-400/10 text-teal-300 text-xs font-medium leading-5 rounded-full">
+            Angular
+          </button>
+        </div>
+        <div>
+          <button class="px-3 py-1 mr-1.5 bg-teal-400/10 text-teal-300 text-xs font-medium leading-5 rounded-full">
+            TypeScript
+          </button>
+        </div><div>
+        <button class="px-3 py-1 mr-1.5 bg-teal-400/10 text-teal-300 text-xs font-medium leading-5 rounded-full">
+          HTML & CSS
+        </button>
+      </div>
+        <div>
+          <button class="px-3 py-1 mr-1.5 bg-teal-400/10 text-teal-300 text-xs font-medium leading-5 rounded-full">
+            Bootstrap
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
 
 </section>
