@@ -22,9 +22,9 @@
     "experience_desc2": "Contributed to the development and maintenance of a company library to"
   },
   "Project": {
-    "portfolio_website": " Website Portfolio",
-    "project_desc1": "My portfolio website here tells you about my professional work and experience, projects worked and the different frameworks used.",
+    "portfolio_website": "Portfolio Website",
+    "project_desc1": "Mon site web portfolio vous présente mon travail et mon expérience professionnelle, les projets réalisés et les différents cadres utilisés.",
     "shortly_website": "Shortly Website",
-    "project_desc2": "This website helps to shorten url links of any form, displays the shortened link and you have the possibility of copying that link and pasting it anywhere and will work as the original link."
+    "project_desc2": "Ce site permet de raccourcir les liens url de toute forme, affiche le lien raccourci et vous avez la possibilité de copier ce lien et de le coller n'importe où, il fonctionnera comme le lien original."
   }
 }

@@ -2,6 +2,7 @@ import {Routes} from '@angular/router';
 import {AboutPageComponent} from './pages/about-page/about-page.component';
 import {ExperiencePageComponent} from './pages/experience-page/experience-page.component';
 import {HomePageComponent} from './pages/home-page/home-page.component';
+import {ProjectPageComponent} from './pages/project-page/project-page.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'ui/about', pathMatch: 'full' },
@@ -16,6 +17,10 @@ export const routes: Routes = [
       {
         path: 'ui/experience',
         component: ExperiencePageComponent
+      },
+      {
+        path: 'ui/projects',
+        component: ProjectPageComponent
       }
     ]
   },

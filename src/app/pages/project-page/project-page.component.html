@@ -1,0 +1,27 @@
+<section>
+  <div class="flex xsm:flex-wrap lg:flex-nowrap pb-12" *ngFor="let project of myProjects">
+    <div class="text-1xl">
+      <header class="text-xs mt-2 w-32 z-10 mb-2 sm:col-span-2">
+        <img class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1 w-28"
+             src="{{ project.projectPicture }}" alt="">
+      </header>
+      <!--    <span class="h-0.5 mt-3 bg-gray-500 w-80"></span>-->
+    </div>
+    <a [href]="project.link" target="_blank" class="z-10 sm:col-span-6">
+      <h1 class="font-medium leading-snug text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base mt-1 items-baseline leading-tight">
+        <span class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 block"></span>
+        {{ project.projectTitle | translate }}
+      </h1>
+      <h1 class="mt-2 text-sm leading-normal">{{ project.projectDesc | translate }}
+      </h1>
+      <div class="flex flex-wrap w-96 pt-4" >
+        <div *ngFor="let tool of project.tools">
+          <button class="px-3 py-1 mr-1.5 bg-teal-400/10 text-teal-300 text-xs font-medium leading-5 rounded-full">
+            {{ tool.tool }}
+          </button>
+        </div>
+      </div>
+    </a>
+  </div>
+
+</section>
