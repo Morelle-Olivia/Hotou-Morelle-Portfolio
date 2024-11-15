@@ -19,22 +19,23 @@ export class ExperiencePageComponent {
   }
   myExperiences = [
     {
-      "experienceTitle1": 'HOME.frontend_developer',
-      "experienceDesc1": "Experience.experience_desc1",
-      "startDate": "2022",
-      "endDate": "Experience.present"
+      experienceTitle1: 'HOME.frontend_developer',
+      experienceDesc1: "Experience.experience_desc1",
+      startDate: "2022",
+      endDate: "Experience.present",
+      link: "https://catucstudent.online/"
     },
     {
-      "experienceTitle1": 'Experience.intern_frontend_developer',
-      "experienceDesc1": "Experience.experience_desc2",
-      "startDate": "11/2021",
-      "endDate": "02/2022"
+      experienceTitle1: 'Experience.intern_frontend_developer',
+      experienceDesc1: "Experience.experience_desc2",
+      startDate: "11/2021",
+      endDate: "02/2022"
     },
     {
-      "experienceTitle1": 'Experience.intern_frontend_developer',
-      "experienceDesc1": "Experience.experience_desc2",
-      "startDate": "07/2021",
-      "endDate": "10/2021"
+      experienceTitle1: 'Experience.intern_frontend_developer',
+      experienceDesc1: "Experience.experience_desc2",
+      startDate: "07/2021",
+      endDate: "10/2021"
     }
   ]
 

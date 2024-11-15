@@ -1,10 +1,13 @@
 <div class="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute"
 ></div>
+<div class="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute"
+     style="background: radial-gradient(600px at 460px 1111.8px, rgba(29, 78, 216, 0.15), transparent 80%);"></div>
 <div class="bg-slate-900">
+<!--  <div class="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute" style="background: radial-gradient(600px at 460px 1111.8px, rgba(29, 78, 216, 0.15), transparent 80%);"></div>-->
   <div class="mx-auto min-h-screen max-w-screen-xl leading-relaxed text-slate-500 antialiased selection:bg-teal-300 selection:text-teal-900 font-sans text-white">
     <div class="lg:p-[100px] xsm:py-10 lg:px-[150px] xsm:px-[30px] lg:h-auto">
       <div class="grid lg:grid-cols-2 sm:grid-cols-1">
-        <div class="grid grid-rows gap-4">
+        <div class="grid grid-rows lg:sticky gap-4">
           <h1 class="lg:text-4xl xsm:text-2xl w-2/3 tracking-tight text-slate-200 break-words font-bold">
             HOTOU NJIOWOUO MORELLE OLIVIA
            </h1>
@@ -40,27 +43,31 @@
               </div>
             </div>
             <div class="flex w-30 about">
-              <div class="h-0.5 mt-3 bg-gray-500 list-item"></div>
               <div class="pl-3 about">
                 <a [routerLink]="'ui/projects'"
                    routerLinkActive="font-bold text-white"
                    class="active:font-bold hover:text-slate-200 tracking-widest focus-visible:text-slate-200"
                 >
-                  <li>{{"HOME.projects" | translate }}</li>
+                  <div class="flex">
+                    <div class="h-0.5 mt-3 bg-gray-500 list-item"></div>
+
+                    <li>{{"HOME.projects" | translate }}</li>
+                  </div>
+
                 </a>
               </div>
             </div>
-            <div class="flex w-30 about">
-              <div class="h-0.5 mt-3 bg-gray-500 list-item"></div>
-              <div class="pl-3 about">
-                <a [routerLink]="'ui/'"
-                   routerLinkActive="font-bold text-white"
-                   class="active:font-bold hover:text-slate-200 tracking-widest focus-visible:text-slate-200"
-                >
-                  <li>{{"HOME.skills" | translate }}</li>
-                </a>
-              </div>
-            </div>
+<!--            <div class="flex w-30 about">-->
+<!--              <div class="h-0.5 mt-3 bg-gray-500 list-item"></div>-->
+<!--              <div class="pl-3 about">-->
+<!--                <a [routerLink]="'ui/'"-->
+<!--                   routerLinkActive="font-bold text-white"-->
+<!--                   class="active:font-bold hover:text-slate-200 tracking-widest focus-visible:text-slate-200"-->
+<!--                >-->
+<!--                  <li>{{"HOME.skills" | translate }}</li>-->
+<!--                </a>-->
+<!--              </div>-->
+<!--            </div>-->
           </ul>
         </div>
         <div class="text-1xl text-slate-400 lg:pt-0 xsm:pt-8">
@@ -68,7 +75,15 @@
 
         </div>
       </div>
-      <div class="pt-10">
+      <div class="flex text-2xl pt-10">
+        <a href="https://github.com/Morelle-Olivia" target="_blank" class="mt-1">
+          <i class="fa-brands fa-github mr-5 block hover:text-slate-300 text-slate-400"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/morelle-hotou-966b071b8/" target="_blank">
+          <i class="fa-brands fa-linkedin hover:text-slate-300 text-slate-400"></i>
+        </a>
+      </div>
+      <div class="pt-4">
         <button class="px-4 py-2 mr-2 bg-teal-400/20 text-teal-300 text-s font-medium leading-5 rounded-full"
                 (click)="switchLanguage('en')">
           {{"HOME.eng" | translate}}
@@ -78,6 +93,8 @@
           {{"HOME.fr" | translate}}
         </button>
       </div>
+
+
     </div>
   </div>
 

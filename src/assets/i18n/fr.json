@@ -10,8 +10,8 @@
     "fr": "Fr"
   },
   "About": {
-    "about_para1": "Je suis un développeur de logiciels expérimenté qui a fait ses preuves dans la création d'applications de haute qualité.\nJe suis compétente, j'apprends rapidement et je maîtrise les méthodologies Agile. Je suis fière de faire partie des meilleures femmes\ndans la technologie qui contribuent activement à des innovations significatives et à des solutions aux défis d'aujourd'hui.\nJe suis également une personne qui apprend vite et qui s'épanouit dans des environnements de collaboration avec des femmes leaders dans le domaine de la technologie.",
-    "about_para2": "Mon parcours dans le développement de logiciels a été enrichissant, marqué par une évolution significative vers mes objectifs.\nJ'ai eu le privilège de créer des logiciels pour un système de gestion scolaire et de travailler avec une start-up.\nActuellement, je me concentre sur le développement d'interfaces utilisateur accessibles.",
+    "about_para1": "Je suis un développeur de logiciels expérimenté qui a fait ses preuves dans la création d'applications de haute qualité. Je suis compétente, j'apprends rapidement et je maîtrise les méthodologies Agile. Je suis fière de faire partie des meilleures femmes dans la technologie qui contribuent activement à des innovations significatives et à des solutions aux défis d'aujourd'hui. Je suis également une personne qui apprend vite et qui s'épanouit dans des environnements de collaboration avec des femmes leaders dans le domaine de la technologie.",
+    "about_para2": "Mon parcours dans le développement de logiciels a été enrichissant, marqué par une évolution significative vers mes objectifs. J'ai eu le privilège de créer des logiciels pour un système de gestion scolaire et de travailler avec une start-up. Actuellement, je me concentre sur le développement d'interfaces utilisateur accessibles.",
     "about_para3": "En dehors du travail, j'aime partir à l'aventure, lire et entretenir des relations avec d'autres femmes de la technologie qui partagent ma passion."
   },
   "Experience": {
@@ -25,6 +25,8 @@
     "portfolio_website": "Portfolio Website",
     "project_desc1": "Mon site web portfolio vous présente mon travail et mon expérience professionnelle, les projets réalisés et les différents cadres utilisés.",
     "shortly_website": "Shortly Website",
-    "project_desc2": "Ce site permet de raccourcir les liens url de toute forme, affiche le lien raccourci et vous avez la possibilité de copier ce lien et de le coller n'importe où, il fonctionnera comme le lien original."
+    "project_desc2": "Ce site permet de raccourcir les liens url de toute forme, affiche le lien raccourci et vous avez la possibilité de copier ce lien et de le coller n'importe où, il fonctionnera comme le lien original.",
+    "student_conquest": "Student Conquest",
+    "project_desc3": "Ce site web a été créé pour fournir une approche plus rationnelle de la gestion et du partage d'informations sur le mouvement Student Conquest. Il comprend des fonctionnalités telles que l'inscription au programme, un blog StuCo, une galerie célébrant les moments mémorables et les points forts de la mission."
   }
 }

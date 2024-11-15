@@ -52,6 +52,26 @@ export class ProjectPageComponent {
           tool: "Bootstrap"
         }
       ]
+    },
+    {
+      projectTitle: 'Project.student_conquest',
+      projectDesc: "Project.project_desc3",
+      projectPicture: "/assets/images/stuco-blog.png",
+      link: "https://stuco.vercel.app/",
+      tools: [
+        {
+          tool: "Angular",
+        },
+        {
+          tool: "TypeScript"
+        },
+        {
+          tool: "HTML & CSS"
+        },
+        {
+          tool: "Bootstrap"
+        }
+      ]
     }
   ]
 }
