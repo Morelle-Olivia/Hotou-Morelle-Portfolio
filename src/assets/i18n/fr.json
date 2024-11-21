@@ -19,7 +19,9 @@
     "present": "Présent",
     "experience_desc1": "Contribution au développement et à la maintenance d'un système de gestion scolaire complet, comprenant des modules pour le paiement des frais, l'inscription aux cours, la visualisation des résultats, la gestion des relevés de notes et d'autres fonctionnalités.",
     "intern_frontend_developer": "Développeur Frontend stagiaire",
-    "experience_desc2": "Contribution à la conception, au développement et à la maintenance d'une bibliothèque d'entreprise, intégrant des composants clés de l'interface utilisateur tels que des champs de saisie, des formulaires, des menus hors champ, des barres de navigation, des popovers, des dropdowns, des paginations et d'autres fonctionnalités."
+    "experience_desc2": "Contribution à la conception, au développement et à la maintenance d'une bibliothèque d'entreprise, intégrant des composants clés de l'interface utilisateur tels que des champs de saisie, des formulaires, des menus hors champ, des barres de navigation, des popovers, des dropdowns, des paginations et d'autres fonctionnalités.",
+    "trainee_frontend_developer": "Développeur Frontend stagiaire",
+    "experience_desc3": "Nous avons suivi un cours de base sur Angular chez Go-Groups sous la direction d'un superviseur qui nous a fourni des commentaires détaillés sur notre travail. Développement de projets personnels, y compris un site météo, et collaboration à des projets d'équipe tels qu'un catalogue et un site web de concours."
   },
   "Project": {
     "portfolio_website": "Portfolio Website",
