@@ -5,7 +5,7 @@
 <div class="bg-slate-900">
 <!--  <div class="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute" style="background: radial-gradient(600px at 460px 1111.8px, rgba(29, 78, 216, 0.15), transparent 80%);"></div>-->
   <div class="mx-auto min-h-screen max-w-screen-xl leading-relaxed text-slate-500 antialiased selection:bg-teal-300 selection:text-teal-900 font-sans text-white">
-    <div class="lg:p-[100px] xsm:py-10 lg:px-[150px] xsm:px-[30px] lg:h-auto">
+    <div class="lg:p-[100px] xsm:py-10 lg:px-[100px] xsm:px-[30px] lg:h-auto">
       <div class="grid lg:grid-cols-2 sm:grid-cols-1">
         <div class="grid grid-rows lg:sticky gap-4">
           <h1 class="lg:text-4xl xsm:text-2xl w-2/3 tracking-tight text-slate-200 break-words font-bold">
@@ -14,11 +14,11 @@
           <h2 class="text-xl font-medium tracking-tight text-slate-200">
             {{"HOME.frontend_developer" | translate }}
           </h2>
-          <h5 class="text-1xl w-80 break-words text-slate-400 leading-normal">
+          <h5 class="max-w-xs w-80 break-words text-slate-400 leading-normal">
             {{"HOME.description" | translate }}
           </h5>
 
-          <ul class="tracking-tight text-light list-inside text-slate-400 space-y-2 cursor-pointer pt-10">
+          <ul class="tracking-tight text-light list-inside text-slate-400 space-y-5 cursor-pointer pt-10">
             <div class="flex w-28 about">
               <div class="about text-slate-500">
                 <a [routerLink]="'ui/about'"
@@ -61,6 +61,10 @@
 
                 </a>
               </div>
+            </div>
+            <div>
+              <a class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 font-semibold text-slate-200 group/link text-base" href="/resume.pdf" target="_blank" rel="noreferrer noopener" aria-label="View Full Résumé (opens in a new tab)"><span>View Full<!-- -->
+                <span class="inline-block">Résumé<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></span></span></a>
             </div>
 <!--            <div class="flex w-30 about">-->
 <!--              <div class="h-0.5 mt-3 bg-gray-500 list-item"></div>-->

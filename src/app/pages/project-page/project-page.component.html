@@ -1,5 +1,5 @@
 <section>
-  <div class="flex xsm:flex-wrap lg:flex-nowrap pb-12 gap-4" *ngFor="let project of myProjects">
+  <div class="flex flex-wrap lg:flex-nowrap pb-12 gap-4" *ngFor="let project of myProjects">
     <div class="text-1xl">
       <header class="text-xs mt-2 w-32 z-10 mb-2 sm:col-span-2">
         <img width="200" height="48" class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
@@ -13,7 +13,7 @@
       </h1>
       <h1 class="mt-2 text-sm leading-normal">{{ project.projectDesc | translate }}
       </h1>
-      <div class="flex flex-wrap w-96 pt-4" >
+      <div class="flex flex-wrap pt-4" >
         <div *ngFor="let tool of project.tools">
           <button class="px-3 py-1 mr-1.5 bg-teal-400/10 text-teal-300 text-xs font-medium leading-5 rounded-full">
             {{ tool.tool }}
