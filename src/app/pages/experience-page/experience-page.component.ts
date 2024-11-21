@@ -32,8 +32,8 @@ export class ExperiencePageComponent {
       endDate: "02/2022"
     },
     {
-      experienceTitle1: 'Experience.intern_frontend_developer',
-      experienceDesc1: "Experience.experience_desc2",
+      experienceTitle1: 'Experience.trainee_frontend_developer',
+      experienceDesc1: "Experience.experience_desc3",
       startDate: "07/2021",
       endDate: "10/2021"
     }
